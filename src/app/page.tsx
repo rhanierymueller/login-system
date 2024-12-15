@@ -16,7 +16,7 @@ export default function Home() {
       if (index === fullText.length) {
         setText('');
       }
-    }, 250);
+    }, 200);
 
     return () => clearTimeout(timeout);
   }, [index]);
